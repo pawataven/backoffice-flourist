@@ -4,6 +4,8 @@ import tailwindcss from '@tailwindcss/vite'
 const fonts =
   'https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;600;700&family=Anuphan:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap'
 
+const pollForFileChanges = process.env.WATCH_POLLING === 'true'
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   // §12.1: Back Office is a client-only SPA.
@@ -11,7 +13,11 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: ['@nuxtjs/i18n', '@pinia/nuxt'],
   css: ['~/assets/css/main.css'],
-  vite: { plugins: [tailwindcss()] },
+  vite: {
+    plugins: [tailwindcss()],
+    server: { watch: { usePolling: pollForFileChanges } },
+  },
+  watchers: { chokidar: { usePolling: pollForFileChanges } },
   typescript: { strict: true },
   runtimeConfig: {
     public: {
