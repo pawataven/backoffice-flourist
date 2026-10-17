@@ -1,0 +1,43 @@
+/* Design tokens (structure from pheuan-ui §11.2). Names are semantic (what it is for), not the colour, so dark mode can remap them. */
+:root {
+  /* brand */
+  --brand-primary: #6f3f22; /* espresso */
+  --brand-primary-hover: #8a5230;
+  --info: #3f7f8c;
+  --brand-accent: #e9c08f; /* latte — never text on white, never white text on it */
+  --danger: #c43d32;
+  --warning: #d08a12;
+  --success: #3f8a4f;
+
+  /* neutral: cream paper, oat panels, roasted text */
+  --surface: #ffffff;
+  --surface-muted: #f8f2ea;
+  --surface-sunken: #ede3d6;
+  --border: #3a221330;
+  --text: #2c1a10;
+  --text-muted: #6a5648;
+  --text-on-primary: #ffffff;
+  --action-primary: var(--brand-primary);
+  --nav-active-bg: #f4e7d7;
+
+  /* sidebar: dark roast panel with white text */
+  --sidebar-bg: #3b2416;
+  --sidebar-text: #ffffff;
+  --sidebar-text-muted: rgb(255 255 255 / 0.75);
+  --sidebar-hover: rgb(255 255 255 / 0.1);
+  --sidebar-active-bg: rgb(255 255 255 / 0.18);
+  --sidebar-border: rgb(255 255 255 / 0.14);
+
+  /* type */
+  --font-brand: 'Mitr', sans-serif;
+  --font-body: 'Anuphan', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+  --leading-body: 1.6;
+
+  /* layout */
+  --sidebar-collapsed: 64px;
+  --sidebar-expanded: 240px;
+  --hit-min: 40px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+}

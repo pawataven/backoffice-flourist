@@ -1,0 +1,33 @@
+/* Exposes tokens.css to Tailwind utilities (bg-brand, text-muted, font-brand, rounded-md …). */
+@theme inline {
+  --color-brand: var(--brand-primary);
+  --color-brand-hover: var(--brand-primary-hover);
+  --color-info: var(--info);
+  --color-accent: var(--brand-accent);
+  --color-danger: var(--danger);
+  --color-warning: var(--warning);
+  --color-success: var(--success);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-muted: var(--text-muted);
+  --color-on-primary: var(--text-on-primary);
+  --color-nav-active: var(--nav-active-bg);
+  --color-sidebar: var(--sidebar-bg);
+  --color-sidebar-fg: var(--sidebar-text);
+  --color-sidebar-muted: var(--sidebar-text-muted);
+  --color-sidebar-hover: var(--sidebar-hover);
+  --color-sidebar-active: var(--sidebar-active-bg);
+  --color-sidebar-border: var(--sidebar-border);
+
+  --font-brand: var(--font-brand);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+
+  --spacing-hit: var(--hit-min);
+}

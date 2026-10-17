@@ -1,0 +1,45 @@
+{
+  "name": "cafe-backoffice-demo",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.34.5",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "nuxt dev --port 3002",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck",
+    "lint": "eslint . && prettier --check .",
+    "format": "prettier --write .",
+    "mocks": "node scripts/generate-mocks.mjs",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "^10.11.1",
+    "prettier": "^3.9.9",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.70.1",
+    "vue-tsc": "^3.3.11"
+  },
+  "dependencies": {
+    "@lucide/vue": "^1.48.0",
+    "@nuxtjs/i18n": "^10.6.0",
+    "@pinia/nuxt": "^1.0.2",
+    "@tailwindcss/vite": "^4.3.3",
+    "@tanstack/vue-table": "^8.21.3",
+    "nuxt": "^4.5.2",
+    "pinia": "^4.0.3",
+    "reka-ui": "^2.10.5",
+    "tailwindcss": "^4.3.3",
+    "vue": "^3.5.43",
+    "vue-i18n": "^11.4.12",
+    "vue-router": "^5.3.1",
+    "zod": "^4.6.5"
+  }
+}

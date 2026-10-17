@@ -1,0 +1,754 @@
+{
+  "common": {
+    "save": "บันทึก",
+    "cancel": "ยกเลิก",
+    "edit": "แก้ไข",
+    "delete": "ลบ",
+    "confirm": "ยืนยัน",
+    "close": "ปิด",
+    "create": "สร้างใหม่",
+    "all": "ทั้งหมด",
+    "loading": "กำลังโหลด…",
+    "clearFilters": "ล้างตัวกรอง",
+    "requiredHint": "จำเป็นต้องกรอก",
+    "empty": "—",
+    "showPassword": "แสดงรหัสผ่าน",
+    "hidePassword": "ซ่อนรหัสผ่าน",
+    "dismiss": "ปิดการแจ้งเตือน",
+    "search": "ค้นหา",
+    "searchMenu": "ค้นหาเมนู",
+    "clear": "ล้าง",
+    "clearAll": "ล้างทั้งหมด",
+    "selectAll": "เลือกทั้งหมด",
+    "copy": "คัดลอก",
+    "copied": "คัดลอกแล้ว",
+    "back": "ย้อนกลับ",
+    "retry": "ลองอีกครั้ง",
+    "logout": "ออกจากระบบ",
+    "settings": "ตั้งค่า",
+    "publish": "เปิดใช้งาน",
+    "unpublish": "ปิดใช้งาน",
+    "actions": "จัดการ",
+    "from": "ตั้งแต่",
+    "to": "ถึง",
+    "blank": "(ว่าง)",
+    "loadError": "โหลดข้อมูลไม่สำเร็จ",
+    "openMenu": "เปิดเมนู",
+    "home": "หน้าแรก",
+    "changeImage": "เปลี่ยนรูป",
+    "removeImage": "ลบรูป",
+    "uploadImage": "อัปโหลดรูป"
+  },
+  "locale": {
+    "th": "ไทย",
+    "en": "English"
+  },
+  "validation": {
+    "required": "จำเป็นต้องกรอก",
+    "personName": {
+      "invalid": "ใช้ได้เฉพาะตัวอักษรไทย/อังกฤษ เว้นวรรค และ . - '"
+    },
+    "phone": {
+      "startsWithZero": "เบอร์โทรต้องขึ้นต้นด้วย 0",
+      "tooShort": "เบอร์โทรต้องมีอย่างน้อย 9 หลัก",
+      "tooLong": "เบอร์โทรต้องไม่เกิน 10 หลัก"
+    },
+    "email": {
+      "invalid": "รูปแบบอีเมลไม่ถูกต้อง"
+    },
+    "text": {
+      "tooLong": "ยาวได้ไม่เกิน {max} ตัวอักษร"
+    },
+    "slug": {
+      "invalid": "ใช้ได้เฉพาะ a-z, 0-9 และ -"
+    },
+    "number": {
+      "invalid": "ต้องเป็นตัวเลข",
+      "tooSmall": "ต้องไม่น้อยกว่า {min}",
+      "tooBig": "ต้องไม่เกิน {max}",
+      "notInteger": "ต้องเป็นจำนวนเต็ม"
+    },
+    "url": {
+      "invalid": "รูปแบบ URL ไม่ถูกต้อง"
+    },
+    "duplicate": "ค่านี้ถูกใช้แล้ว",
+    "date": {
+      "invalid": "ใช้รูปแบบ ปปปป-ดด-วว เช่น 2026-10-07"
+    }
+  },
+  "confirm": {
+    "discardTitle": "ทิ้งการเปลี่ยนแปลง?",
+    "discardBody": "สิ่งที่แก้ไขไว้จะหายไปทั้งหมด",
+    "discardAction": "ทิ้งการเปลี่ยนแปลง",
+    "deleteTitle": "ลบรายการนี้?",
+    "deleteBody": "การลบไม่สามารถย้อนกลับได้"
+  },
+  "toast": {
+    "saved": "บันทึกเรียบร้อย",
+    "saveFailed": "บันทึกไม่สำเร็จ ลองอีกครั้ง"
+  },
+  "emptyState": {
+    "noDataTitle": "ยังไม่มีข้อมูล",
+    "noDataBody": "เริ่มสร้างรายการแรกได้เลย",
+    "noResultTitle": "ไม่พบรายการที่ตรงกับตัวกรอง",
+    "noResultBody": "ลองเปลี่ยนคำค้นหรือล้างตัวกรอง"
+  },
+  "ui": {
+    "sortDefault": "ค่าเริ่มต้น",
+    "sortAsc": "เรียง A→Z",
+    "sortDesc": "เรียง Z→A",
+    "sortMenu": "เรียงเมนู",
+    "pinned": "ปักหมุด",
+    "pin": "ปักหมุด {label}",
+    "unpin": "เลิกปักหมุด {label}",
+    "noMenuMatch": "ไม่พบเมนูที่ตรงกับ \"{q}\"",
+    "searchHint": "↑↓ เลือก · Enter เปิด · Esc ปิด",
+    "filterBy": "ตัวกรอง {label}",
+    "filterActive": "กรองอยู่",
+    "searchValues": "ค้นหาค่า",
+    "noValues": "ไม่มีค่า",
+    "selected": "เลือก {n} รายการ",
+    "clearSelection": "ยกเลิกการเลือก",
+    "rowsPerPage": "แถวต่อหน้า",
+    "perPage": "{n}/หน้า",
+    "range": "{from}–{to} จาก {total}",
+    "prevPage": "หน้าก่อน",
+    "nextPage": "หน้าถัดไป",
+    "page": "หน้า {n}",
+    "selectRow": "เลือกแถว",
+    "selectPage": "เลือกทั้งหน้า",
+    "sectionNav": "หัวข้อในหน้านี้",
+    "breadcrumb": "ตำแหน่งปัจจุบัน",
+    "statusDirty": "มีการแก้ไข",
+    "statusError": "มีช่องที่ต้องแก้",
+    "choose": "เลือก…",
+    "userMenu": "เมนูผู้ใช้",
+    "language": "ภาษา",
+    "lockSidebar": "ล็อกเมนูข้างให้กางไว้",
+    "clearPins": "ล้างหมุดทั้งหมด",
+    "role": {
+      "admin": "ผู้ดูแลระบบ",
+      "editor": "ผู้แก้ไข",
+      "viewer": "ผู้ชม"
+    }
+  },
+  "list": {
+    "list": "รายการ",
+    "searchIn": "ค้นหา{title}",
+    "new": "สร้างใหม่",
+    "edit": "แก้ไข",
+    "view": "ดู",
+    "filterValue": "{label}: {values}",
+    "filterRange": "{label}: {from} – {to}",
+    "bulkPublished": "เปิดใช้งาน {n} รายการแล้ว",
+    "bulkUnpublished": "ปิดใช้งาน {n} รายการแล้ว",
+    "bulkDeleted": "ลบ {n} รายการแล้ว",
+    "bulkDeleteTitle": "ลบ {n} รายการ?"
+  },
+  "detail": {
+    "new": "สร้าง{entity}ใหม่",
+    "editing": "โหมดแก้ไข",
+    "created": "สร้างเรียบร้อย",
+    "deleted": "ลบเรียบร้อย",
+    "fixErrors": "มี {n} ช่องที่ต้องแก้ก่อนบันทึก",
+    "leaveTitle": "ออกจากหน้านี้?",
+    "leaveBody": "สิ่งที่แก้ไขไว้ยังไม่ได้บันทึก",
+    "leaveAction": "ออกโดยไม่บันทึก",
+    "switchTabTitle": "เปลี่ยนแท็บ?",
+    "notFoundTitle": "ไม่พบรายการนี้",
+    "notFoundBody": "อาจถูกลบไปแล้ว หรือลิงก์ไม่ถูกต้อง",
+    "uuid": "UUID"
+  },
+  "status": {
+    "draft": "ร่าง",
+    "published": "เปิดใช้งาน"
+  },
+  "auth": {
+    "title": "เข้าสู่ระบบ",
+    "subtitle": "Back Office ของดอยดาว คาเฟ่",
+    "email": "อีเมล",
+    "password": "รหัสผ่าน",
+    "remember": "จดจำการเข้าสู่ระบบ",
+    "submit": "เข้าสู่ระบบ",
+    "invalid": "อีเมลหรือรหัสผ่านไม่ถูกต้อง",
+    "demo": "โหมดทดลอง (mock): {email} / {password}",
+    "tagline": "จากดอยถึงแก้วของคุณ",
+    "taglineBody": "จัดการออเดอร์ เมนู สมาชิก และสต็อกของทุกสาขาในที่เดียว"
+  },
+  "nav": {
+    "dashboard": "ภาพรวม",
+    "analytics": "วิเคราะห์ยอดขาย",
+    "settings": "ตั้งค่า",
+    "orders": "ออเดอร์",
+    "menu": "เมนู",
+    "categories": "หมวดเมนู",
+    "promotions": "โปรโมชัน",
+    "members": "สมาชิก",
+    "reviews": "รีวิว",
+    "branches": "สาขา",
+    "staff": "พนักงาน",
+    "stock": "สต็อกวัตถุดิบ"
+  },
+  "error": {
+    "notFoundTitle": "ไม่พบหน้านี้",
+    "notFoundBody": "น้องดาวหาทั่วร้านแล้วก็ไม่เจอ ลองกลับไปหน้าแรก",
+    "forbiddenTitle": "ไม่มีสิทธิ์เข้าหน้านี้",
+    "forbiddenBody": "หน้านี้สำหรับผู้ดูแลระบบเท่านั้น",
+    "goHome": "กลับหน้าแรก"
+  },
+  "category": {
+    "coffee": "กาแฟ",
+    "tea": "ชา",
+    "non_coffee": "ไม่ใส่กาแฟ",
+    "frappe": "ปั่น",
+    "bakery": "เบเกอรี่",
+    "food": "อาหารจานเบา"
+  },
+  "categoryKind": {
+    "drink": "เครื่องดื่ม",
+    "food": "ของกิน"
+  },
+  "menuTag": {
+    "new": "ใหม่",
+    "best": "ขายดี",
+    "signature": "ซิกเนเจอร์"
+  },
+  "branch": {
+    "ari": "อารีย์",
+    "thonglor": "ทองหล่อ",
+    "siam": "สยาม",
+    "chiangmai": "นิมมาน เชียงใหม่",
+    "phuket": "ภูเก็ต"
+  },
+  "branchStatus": {
+    "open": "เปิดอยู่",
+    "closed": "ปิดปรับปรุง",
+    "soon": "เร็ว ๆ นี้"
+  },
+  "channel": {
+    "dine_in": "ทานที่ร้าน",
+    "takeaway": "กลับบ้าน",
+    "grab": "Grab",
+    "lineman": "LINE MAN",
+    "line_order": "สั่งผ่าน LINE"
+  },
+  "orderStatus": {
+    "pending": "รอรับออเดอร์",
+    "preparing": "กำลังทำ",
+    "ready": "พร้อมเสิร์ฟ",
+    "completed": "เสร็จแล้ว",
+    "cancelled": "ยกเลิก"
+  },
+  "payment": {
+    "cash": "เงินสด",
+    "promptpay": "พร้อมเพย์",
+    "card": "บัตร",
+    "wallet": "วอลเล็ตแอป"
+  },
+  "tier": {
+    "bronze": "บรอนซ์",
+    "silver": "ซิลเวอร์",
+    "gold": "โกลด์"
+  },
+  "staffRole": {
+    "manager": "ผู้จัดการสาขา",
+    "barista": "บาริสต้า",
+    "cashier": "แคชเชียร์",
+    "baker": "เบเกอร์"
+  },
+  "shift": {
+    "morning": "เช้า",
+    "afternoon": "บ่าย",
+    "evening": "เย็น"
+  },
+  "staffStatus": {
+    "active": "ทำงานอยู่",
+    "on_leave": "ลาพัก",
+    "resigned": "ลาออก"
+  },
+  "stockGroup": {
+    "beans": "เมล็ดกาแฟ",
+    "dairy": "นมและครีม",
+    "syrup": "ไซรัปและความหวาน",
+    "tea": "ชา",
+    "bakery": "วัตถุดิบเบเกอรี่",
+    "packaging": "บรรจุภัณฑ์"
+  },
+  "unit": {
+    "kg": "กก.",
+    "l": "ลิตร",
+    "pcs": "ชิ้น",
+    "pack": "แพ็ก"
+  },
+  "promoKind": {
+    "percent": "ลดเป็น %",
+    "amount": "ลดเป็นบาท",
+    "bogo": "ซื้อ 1 แถม 1"
+  },
+  "reviewSource": {
+    "google": "Google",
+    "wongnai": "Wongnai",
+    "line": "LINE OA",
+    "instore": "QR ในร้าน"
+  },
+  "visibility": {
+    "shown": "แสดงบนเว็บ",
+    "hidden": "ซ่อน"
+  },
+  "entities": {
+    "menu": {
+      "title": "เมนู",
+      "singular": "เมนู",
+      "stat": {
+        "all": "ทั้งหมด",
+        "published": "วางขายอยู่",
+        "draft": "ร่าง",
+        "best": "ขายดี / ซิกเนเจอร์",
+        "lowMargin": "ต้นทุนเกิน 35%"
+      },
+      "fields": {
+        "image_url": "รูป",
+        "name_th": "ชื่อเมนู (ไทย)",
+        "name_en": "ชื่อเมนู (อังกฤษ)",
+        "sku": "รหัสสินค้า",
+        "category": "หมวด",
+        "tag": "ป้าย",
+        "price": "ราคา (บาท)",
+        "cost": "ต้นทุน (บาท)",
+        "sold_7d": "ขาย 7 วัน (แก้ว/ชิ้น)",
+        "revenue_7d": "ยอดขาย 7 วัน (บาท)",
+        "rating": "คะแนนเฉลี่ย",
+        "status": "สถานะ",
+        "description_th": "คำอธิบาย (ไทย)",
+        "description_en": "คำอธิบาย (อังกฤษ)",
+        "updated_at": "แก้ไขล่าสุด"
+      },
+      "sections": {
+        "info": "ข้อมูลเมนู",
+        "content": "ชื่อและคำอธิบาย",
+        "pricing": "ราคาและต้นทุน"
+      }
+    },
+    "categories": {
+      "title": "หมวดเมนู",
+      "singular": "หมวด",
+      "stat": {
+        "all": "ทั้งหมด",
+        "drink": "เครื่องดื่ม",
+        "food": "ของกิน",
+        "empty": "ยังไม่มีเมนู",
+        "noEmoji": "ไม่มีอีโมจิ"
+      },
+      "fields": {
+        "order": "ลำดับ",
+        "emoji": "อีโมจิ",
+        "name_th": "ชื่อ (ไทย)",
+        "name_en": "ชื่อ (อังกฤษ)",
+        "slug": "รหัสหมวด",
+        "kind": "ประเภท",
+        "item_count": "จำนวนเมนู"
+      },
+      "sections": {
+        "info": "ข้อมูลหมวด",
+        "content": "ชื่อหมวด"
+      }
+    },
+    "orders": {
+      "title": "ออเดอร์",
+      "singular": "ออเดอร์",
+      "stat": {
+        "all": "ทั้งหมด (14 วัน)",
+        "inProgress": "กำลังดำเนินการ",
+        "completed": "เสร็จแล้ว",
+        "cancelled": "ยกเลิก",
+        "delivery": "เดลิเวอรี"
+      },
+      "fields": {
+        "code": "เลขที่บิล",
+        "ordered_at": "วันที่สั่ง",
+        "branch": "สาขา",
+        "channel": "ช่องทาง",
+        "customer_name": "ชื่อลูกค้า",
+        "phone": "เบอร์โทร",
+        "note": "หมายเหตุ",
+        "items": "จำนวนรายการ",
+        "subtotal": "ยอดก่อนลด (บาท)",
+        "discount": "ส่วนลด (บาท)",
+        "total": "ยอดสุทธิ (บาท)",
+        "payment": "ชำระด้วย",
+        "status": "สถานะ"
+      },
+      "sections": {
+        "order": "ออเดอร์",
+        "customer": "ลูกค้า",
+        "payment": "การชำระเงิน"
+      }
+    },
+    "promotions": {
+      "title": "โปรโมชัน",
+      "singular": "โปรโมชัน",
+      "stat": {
+        "all": "ทั้งหมด",
+        "running": "ใช้งานอยู่วันนี้",
+        "upcoming": "ยังไม่เริ่ม",
+        "expired": "หมดอายุ",
+        "draft": "ร่าง"
+      },
+      "fields": {
+        "code": "โค้ด",
+        "title_th": "ชื่อโปร (ไทย)",
+        "title_en": "ชื่อโปร (อังกฤษ)",
+        "kind": "รูปแบบ",
+        "value": "มูลค่าส่วนลด",
+        "min_spend": "ยอดขั้นต่ำ (บาท)",
+        "starts_on": "เริ่ม",
+        "ends_on": "สิ้นสุด",
+        "usage_limit": "ใช้ได้สูงสุด (ครั้ง)",
+        "used_count": "ใช้ไปแล้ว",
+        "status": "สถานะ"
+      },
+      "sections": {
+        "info": "เงื่อนไข",
+        "content": "ชื่อโปร",
+        "period": "ช่วงเวลาและจำนวนสิทธิ์"
+      }
+    },
+    "members": {
+      "title": "สมาชิก",
+      "singular": "สมาชิก",
+      "stat": {
+        "all": "ทั้งหมด",
+        "gold": "โกลด์",
+        "silver": "ซิลเวอร์",
+        "newMembers": "สมัครใหม่ 30 วัน",
+        "birthday": "เกิดเดือนนี้"
+      },
+      "fields": {
+        "avatar_url": "รูป",
+        "name": "ชื่อ",
+        "phone": "เบอร์โทร",
+        "email": "อีเมล",
+        "birthday": "วันเกิด",
+        "tier": "ระดับ",
+        "points": "แต้มคงเหลือ",
+        "visits": "มาร้าน (ครั้ง)",
+        "total_spent": "ยอดใช้จ่ายรวม (บาท)",
+        "favorite_menu": "เมนูโปรด",
+        "joined_on": "วันที่สมัคร",
+        "last_visit_at": "มาล่าสุด"
+      },
+      "sections": {
+        "profile": "ข้อมูลส่วนตัว",
+        "loyalty": "แต้มและระดับ"
+      }
+    },
+    "reviews": {
+      "title": "รีวิว",
+      "singular": "รีวิว",
+      "stat": {
+        "all": "ทั้งหมด",
+        "fiveStar": "5 ดาว",
+        "lowStar": "3 ดาวหรือต่ำกว่า",
+        "unreplied": "ยังไม่ตอบ",
+        "hidden": "ซ่อนอยู่"
+      },
+      "fields": {
+        "name": "ผู้รีวิว",
+        "rating": "ดาว",
+        "body": "ข้อความ",
+        "branch": "สาขา",
+        "source": "ที่มา",
+        "reviewed_on": "วันที่รีวิว",
+        "reply": "คำตอบจากร้าน",
+        "visibility": "การแสดงผล"
+      },
+      "sections": {
+        "review": "รีวิว",
+        "reply": "ตอบกลับ",
+        "display": "การแสดงบนเว็บ"
+      }
+    },
+    "branches": {
+      "title": "สาขา",
+      "singular": "สาขา",
+      "stat": {
+        "all": "ทั้งหมด",
+        "open": "เปิดอยู่",
+        "closed": "ปิดปรับปรุง",
+        "soon": "เร็ว ๆ นี้",
+        "large": "50 ที่นั่งขึ้นไป"
+      },
+      "fields": {
+        "name_th": "ชื่อสาขา (ไทย)",
+        "name_en": "ชื่อสาขา (อังกฤษ)",
+        "slug": "รหัสสาขา",
+        "district": "ที่ตั้ง",
+        "phone": "เบอร์โทร",
+        "manager": "ผู้จัดการ",
+        "opens_at": "เปิด",
+        "closes_at": "ปิด",
+        "seats": "ที่นั่ง",
+        "staff_count": "พนักงาน",
+        "today_orders": "ออเดอร์วันนี้",
+        "today_revenue": "ยอดขายวันนี้ (บาท)",
+        "rating": "คะแนนรีวิว",
+        "status": "สถานะ"
+      },
+      "sections": {
+        "info": "ข้อมูลสาขา",
+        "hours": "เวลาเปิดและที่นั่ง"
+      }
+    },
+    "staff": {
+      "title": "พนักงาน",
+      "singular": "พนักงาน",
+      "stat": {
+        "all": "ทั้งหมด",
+        "barista": "บาริสต้า",
+        "manager": "ผู้จัดการ",
+        "onLeave": "ลาพัก",
+        "morning": "กะเช้าที่ทำงานอยู่"
+      },
+      "fields": {
+        "avatar_url": "รูป",
+        "name": "ชื่อ",
+        "nickname": "ชื่อเล่น",
+        "phone": "เบอร์โทร",
+        "role": "ตำแหน่ง",
+        "branch": "สาขา",
+        "shift": "กะ",
+        "hourly_rate": "ค่าแรง/ชม. (บาท)",
+        "started_on": "เริ่มงาน",
+        "status": "สถานะ",
+        "hours_this_month": "ชั่วโมงเดือนนี้"
+      },
+      "sections": {
+        "profile": "ข้อมูลส่วนตัว",
+        "work": "งาน"
+      }
+    },
+    "stock": {
+      "title": "สต็อกวัตถุดิบ",
+      "singular": "วัตถุดิบ",
+      "stat": {
+        "all": "ทั้งหมด",
+        "low": "ใกล้หมด ต้องสั่ง",
+        "out": "หมดแล้ว",
+        "beans": "เมล็ดกาแฟ",
+        "dairy": "นมและครีม"
+      },
+      "fields": {
+        "name_th": "ชื่อ (ไทย)",
+        "name_en": "ชื่อ (อังกฤษ)",
+        "sku": "รหัส",
+        "group": "กลุ่ม",
+        "branch": "สาขา",
+        "stock": "คงเหลือ",
+        "reorder_level": "จุดสั่งซื้อ",
+        "unit": "หน่วย",
+        "supplier": "ซัพพลายเออร์",
+        "cost_per_unit": "ราคาต่อหน่วย (บาท)",
+        "last_restock_on": "เติมล่าสุด"
+      },
+      "sections": {
+        "info": "ข้อมูลวัตถุดิบ",
+        "level": "ระดับสต็อก",
+        "supplier": "ผู้ขาย"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "ภาพรวม",
+    "total": "ทั้งหมด",
+    "chartType": "รูปแบบกราฟ",
+    "kinds": {
+      "donut": "วงกลม",
+      "bar": "แท่งแนวนอน",
+      "column": "แท่งแนวตั้ง",
+      "line": "เส้น",
+      "table": "ตาราง"
+    },
+    "tiles": {
+      "ordersToday": "ออเดอร์วันนี้",
+      "revenueToday": "ยอดขายวันนี้ (บาท)",
+      "avgTicket": "เฉลี่ยต่อบิล (บาท)",
+      "inProgress": "ออเดอร์ที่ยังไม่เสร็จ",
+      "lowStock": "วัตถุดิบใกล้หมด"
+    },
+    "charts": {
+      "byHour": {
+        "title": "ออเดอร์รายชั่วโมงวันนี้",
+        "note": "ช่วงไหนคนเยอะ",
+        "label": "เวลา",
+        "value": "ออเดอร์"
+      },
+      "channels": {
+        "title": "ช่องทางการสั่ง",
+        "note": "ออเดอร์วันนี้ทุกสาขา",
+        "label": "ช่องทาง",
+        "value": "ออเดอร์"
+      },
+      "branches": {
+        "title": "ยอดขายตามสาขา",
+        "note": "วันนี้ (บาท)",
+        "label": "สาขา",
+        "value": "ยอดขาย (บาท)"
+      },
+      "topMenu": {
+        "title": "เมนูขายดี",
+        "note": "จำนวนที่ขายใน 7 วัน",
+        "label": "เมนู",
+        "value": "ขาย"
+      },
+      "orderStatus": {
+        "title": "สถานะออเดอร์วันนี้",
+        "note": "รวมที่ยกเลิก",
+        "label": "สถานะ",
+        "value": "ออเดอร์"
+      },
+      "tiers": {
+        "title": "สมาชิกตามระดับ",
+        "note": "ตามยอดใช้จ่ายสะสม",
+        "label": "ระดับ",
+        "value": "สมาชิก"
+      }
+    }
+  },
+  "analytics": {
+    "range": "{n} วัน",
+    "rangeLabel": "ช่วงเวลา",
+    "tiles": {
+      "revenue": "ยอดขาย (บาท)",
+      "orders": "ออเดอร์",
+      "avgTicket": "เฉลี่ยต่อบิล (บาท)",
+      "newMembers": "สมาชิกใหม่",
+      "wasteCost": "ของเสีย (บาท)"
+    },
+    "channels": {
+      "dine_in": "ทานที่ร้าน",
+      "takeaway": "กลับบ้าน",
+      "delivery": "เดลิเวอรี"
+    },
+    "cups": {
+      "cups_hot": "ร้อน",
+      "cups_iced": "เย็น",
+      "cups_blended": "ปั่น"
+    },
+    "charts": {
+      "revenue": {
+        "title": "ยอดขายรายวัน",
+        "note": "บาท",
+        "label": "วัน",
+        "value": "ยอดขาย (บาท)"
+      },
+      "orders": {
+        "title": "ออเดอร์รายวัน",
+        "note": "ทุกสาขาทุกช่องทาง",
+        "label": "วัน",
+        "value": "ออเดอร์"
+      },
+      "avgTicket": {
+        "title": "ยอดเฉลี่ยต่อบิล",
+        "note": "บาทต่อออเดอร์",
+        "label": "วัน",
+        "value": "บาท"
+      },
+      "channels": {
+        "title": "สัดส่วนช่องทาง",
+        "note": "ออเดอร์รวมในช่วงที่เลือก",
+        "label": "ช่องทาง",
+        "value": "ออเดอร์"
+      },
+      "cups": {
+        "title": "ร้อน เย็น ปั่น",
+        "note": "จำนวนแก้วในช่วงที่เลือก",
+        "label": "แบบ",
+        "value": "แก้ว"
+      },
+      "categories": {
+        "title": "ยอดขายตามหมวด",
+        "note": "7 วันล่าสุด (บาท)",
+        "label": "หมวด",
+        "value": "ยอดขาย (บาท)"
+      },
+      "newMembers": {
+        "title": "สมาชิกใหม่รายวัน",
+        "note": "สมัครผ่าน LINE OA และหน้าร้าน",
+        "label": "วัน",
+        "value": "คน"
+      },
+      "promo": {
+        "title": "ส่วนลดโปรโมชัน",
+        "note": "บาทต่อวัน",
+        "label": "วัน",
+        "value": "บาท"
+      },
+      "waste": {
+        "title": "ของเสีย",
+        "note": "มูลค่าที่ทิ้งต่อวัน (บาท)",
+        "label": "วัน",
+        "value": "บาท"
+      }
+    }
+  },
+  "settings": {
+    "title": "ตั้งค่าร้าน",
+    "subtitle": "มีผลกับทุกสาขาทันที · เฉพาะผู้ดูแลระบบ",
+    "confirmTitle": "บันทึกการตั้งค่า?",
+    "confirmBody": "การเปลี่ยนแปลงจะมีผลกับทุกสาขาทันที",
+    "categories": {
+      "store": {
+        "title": "ข้อมูลร้าน",
+        "description": "ชื่อร้าน ภาษี และข้อความบนใบเสร็จ"
+      },
+      "loyalty": {
+        "title": "สะสมแต้ม",
+        "description": "อัตราแต้ม ของรางวัล และระดับสมาชิก"
+      }
+    },
+    "store": {
+      "tabs": {
+        "general": "ทั่วไป",
+        "receipt": "ใบเสร็จ"
+      },
+      "sections": {
+        "business": "ข้อมูลกิจการ",
+        "tax": "ภาษีและค่าบริการ",
+        "receipt": "ข้อความบนใบเสร็จ",
+        "wifi": "Wi-Fi ลูกค้า"
+      },
+      "fields": {
+        "store_name": "ชื่อร้าน",
+        "tax_id": "เลขประจำตัวผู้เสียภาษี",
+        "phone": "เบอร์โทร",
+        "email": "อีเมล",
+        "vat_percent": "VAT (%)",
+        "service_charge_percent": "Service charge (%)",
+        "receipt_header": "หัวใบเสร็จ",
+        "receipt_footer": "ท้ายใบเสร็จ",
+        "wifi_password": "รหัส Wi-Fi (พิมพ์บนใบเสร็จ)"
+      }
+    },
+    "loyalty": {
+      "tabs": {
+        "points": "แต้ม",
+        "tiers": "ระดับสมาชิก"
+      },
+      "sections": {
+        "earn": "การได้แต้ม",
+        "redeem": "การแลกแต้ม",
+        "thresholds": "เกณฑ์เลื่อนระดับ",
+        "perks": "สิทธิพิเศษ"
+      },
+      "fields": {
+        "baht_per_point": "ใช้จ่ายกี่บาทได้ 1 แต้ม",
+        "point_expiry_months": "แต้มหมดอายุ (เดือน)",
+        "points_per_reward": "แต้มที่ใช้แลก 1 ครั้ง",
+        "reward_value_baht": "มูลค่าของรางวัล (บาท)",
+        "silver_min_spend": "ยอดสะสมขั้นต่ำ ซิลเวอร์ (บาท)",
+        "gold_min_spend": "ยอดสะสมขั้นต่ำ โกลด์ (บาท)",
+        "birthday_points": "แต้มของขวัญวันเกิด"
+      }
+    }
+  }
+}

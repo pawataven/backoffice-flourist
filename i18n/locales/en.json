@@ -1,0 +1,754 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "close": "Close",
+    "create": "New",
+    "all": "All",
+    "loading": "Loading…",
+    "clearFilters": "Clear filters",
+    "requiredHint": "Required",
+    "empty": "—",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "dismiss": "Dismiss notification",
+    "search": "Search",
+    "searchMenu": "Search menu",
+    "clear": "Clear",
+    "clearAll": "Clear all",
+    "selectAll": "Select all",
+    "copy": "Copy",
+    "copied": "Copied",
+    "back": "Back",
+    "retry": "Try again",
+    "logout": "Sign out",
+    "settings": "Settings",
+    "publish": "Publish",
+    "unpublish": "Unpublish",
+    "actions": "Actions",
+    "from": "From",
+    "to": "To",
+    "blank": "(blank)",
+    "loadError": "Could not load the data",
+    "openMenu": "Open menu",
+    "home": "Home",
+    "changeImage": "Change image",
+    "removeImage": "Remove image",
+    "uploadImage": "Upload image"
+  },
+  "locale": {
+    "th": "ไทย",
+    "en": "English"
+  },
+  "validation": {
+    "required": "This field is required",
+    "personName": {
+      "invalid": "Only Thai/English letters, spaces and . - ' are allowed"
+    },
+    "phone": {
+      "startsWithZero": "Phone number must start with 0",
+      "tooShort": "Phone number must have at least 9 digits",
+      "tooLong": "Phone number must have at most 10 digits"
+    },
+    "email": {
+      "invalid": "Invalid email address"
+    },
+    "text": {
+      "tooLong": "At most {max} characters"
+    },
+    "slug": {
+      "invalid": "Only a-z, 0-9 and - are allowed"
+    },
+    "number": {
+      "invalid": "Must be a number",
+      "tooSmall": "Must be at least {min}",
+      "tooBig": "Must be at most {max}",
+      "notInteger": "Must be a whole number"
+    },
+    "url": {
+      "invalid": "Invalid URL"
+    },
+    "duplicate": "This value is already in use",
+    "date": {
+      "invalid": "Use YYYY-MM-DD, e.g. 2026-10-07"
+    }
+  },
+  "confirm": {
+    "discardTitle": "Discard changes?",
+    "discardBody": "Everything you edited will be lost.",
+    "discardAction": "Discard changes",
+    "deleteTitle": "Delete this item?",
+    "deleteBody": "This cannot be undone."
+  },
+  "toast": {
+    "saved": "Saved",
+    "saveFailed": "Could not save. Please try again."
+  },
+  "emptyState": {
+    "noDataTitle": "Nothing here yet",
+    "noDataBody": "Create the first item to get started.",
+    "noResultTitle": "No items match your filters",
+    "noResultBody": "Try a different search or clear the filters."
+  },
+  "ui": {
+    "sortDefault": "Default",
+    "sortAsc": "Sort A→Z",
+    "sortDesc": "Sort Z→A",
+    "sortMenu": "Sort menu",
+    "pinned": "Pinned",
+    "pin": "Pin {label}",
+    "unpin": "Unpin {label}",
+    "noMenuMatch": "No menu matches \"{q}\"",
+    "searchHint": "↑↓ select · Enter open · Esc close",
+    "filterBy": "Filter {label}",
+    "filterActive": "Filtered",
+    "searchValues": "Search values",
+    "noValues": "No values",
+    "selected": "{n} selected",
+    "clearSelection": "Clear selection",
+    "rowsPerPage": "Rows per page",
+    "perPage": "{n}/page",
+    "range": "{from}–{to} of {total}",
+    "prevPage": "Previous page",
+    "nextPage": "Next page",
+    "page": "Page {n}",
+    "selectRow": "Select row",
+    "selectPage": "Select page",
+    "sectionNav": "On this page",
+    "breadcrumb": "Breadcrumb",
+    "statusDirty": "Edited",
+    "statusError": "Has errors",
+    "choose": "Choose…",
+    "userMenu": "User menu",
+    "language": "Language",
+    "lockSidebar": "Keep sidebar open",
+    "clearPins": "Clear all pins",
+    "role": {
+      "admin": "Admin",
+      "editor": "Editor",
+      "viewer": "Viewer"
+    }
+  },
+  "list": {
+    "list": "List",
+    "searchIn": "Search {title}",
+    "new": "New",
+    "edit": "Edit",
+    "view": "View",
+    "filterValue": "{label}: {values}",
+    "filterRange": "{label}: {from} – {to}",
+    "bulkPublished": "Published {n} items",
+    "bulkUnpublished": "Unpublished {n} items",
+    "bulkDeleted": "Deleted {n} items",
+    "bulkDeleteTitle": "Delete {n} items?"
+  },
+  "detail": {
+    "new": "New {entity}",
+    "editing": "Editing",
+    "created": "Created",
+    "deleted": "Deleted",
+    "fixErrors": "{n} fields need fixing before saving",
+    "leaveTitle": "Leave this page?",
+    "leaveBody": "Your changes have not been saved.",
+    "leaveAction": "Leave without saving",
+    "switchTabTitle": "Switch tab?",
+    "notFoundTitle": "Item not found",
+    "notFoundBody": "It may have been deleted, or the link is wrong.",
+    "uuid": "UUID"
+  },
+  "status": {
+    "draft": "Draft",
+    "published": "Published"
+  },
+  "auth": {
+    "title": "Sign in",
+    "subtitle": "Doi Dao Café Back Office",
+    "email": "Email",
+    "password": "Password",
+    "remember": "Remember me",
+    "submit": "Sign in",
+    "invalid": "Wrong email or password",
+    "demo": "Demo (mock): {email} / {password}",
+    "tagline": "From the hills to your cup",
+    "taglineBody": "Orders, menu, members and stock for every branch in one place"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "analytics": "Analytics",
+    "settings": "Settings",
+    "orders": "Orders",
+    "menu": "Menu",
+    "categories": "Categories",
+    "promotions": "Promotions",
+    "members": "Members",
+    "reviews": "Reviews",
+    "branches": "Branches",
+    "staff": "Staff",
+    "stock": "Stock"
+  },
+  "error": {
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "Our cup looked all over the café. Try the home page.",
+    "forbiddenTitle": "No access",
+    "forbiddenBody": "This page is for admins only",
+    "goHome": "Go home"
+  },
+  "category": {
+    "coffee": "Coffee",
+    "tea": "Tea",
+    "non_coffee": "Non-coffee",
+    "frappe": "Frappé",
+    "bakery": "Bakery",
+    "food": "Light meals"
+  },
+  "categoryKind": {
+    "drink": "Drink",
+    "food": "Food"
+  },
+  "menuTag": {
+    "new": "New",
+    "best": "Best seller",
+    "signature": "Signature"
+  },
+  "branch": {
+    "ari": "Ari",
+    "thonglor": "Thonglor",
+    "siam": "Siam",
+    "chiangmai": "Nimman, Chiang Mai",
+    "phuket": "Phuket"
+  },
+  "branchStatus": {
+    "open": "Open",
+    "closed": "Closed",
+    "soon": "Coming soon"
+  },
+  "channel": {
+    "dine_in": "Dine-in",
+    "takeaway": "Takeaway",
+    "grab": "Grab",
+    "lineman": "LINE MAN",
+    "line_order": "LINE order"
+  },
+  "orderStatus": {
+    "pending": "Pending",
+    "preparing": "Preparing",
+    "ready": "Ready",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "payment": {
+    "cash": "Cash",
+    "promptpay": "PromptPay",
+    "card": "Card",
+    "wallet": "App wallet"
+  },
+  "tier": {
+    "bronze": "Bronze",
+    "silver": "Silver",
+    "gold": "Gold"
+  },
+  "staffRole": {
+    "manager": "Manager",
+    "barista": "Barista",
+    "cashier": "Cashier",
+    "baker": "Baker"
+  },
+  "shift": {
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening"
+  },
+  "staffStatus": {
+    "active": "Active",
+    "on_leave": "On leave",
+    "resigned": "Resigned"
+  },
+  "stockGroup": {
+    "beans": "Coffee beans",
+    "dairy": "Dairy",
+    "syrup": "Syrups",
+    "tea": "Tea",
+    "bakery": "Bakery",
+    "packaging": "Packaging"
+  },
+  "unit": {
+    "kg": "kg",
+    "l": "L",
+    "pcs": "pcs",
+    "pack": "pack"
+  },
+  "promoKind": {
+    "percent": "Percent off",
+    "amount": "Baht off",
+    "bogo": "Buy 1 get 1"
+  },
+  "reviewSource": {
+    "google": "Google",
+    "wongnai": "Wongnai",
+    "line": "LINE OA",
+    "instore": "In-store QR"
+  },
+  "visibility": {
+    "shown": "Shown",
+    "hidden": "Hidden"
+  },
+  "entities": {
+    "menu": {
+      "title": "Menu",
+      "singular": "menu item",
+      "stat": {
+        "all": "All",
+        "published": "On sale",
+        "draft": "Drafts",
+        "best": "Best / signature",
+        "lowMargin": "Cost over 35%"
+      },
+      "fields": {
+        "image_url": "Photo",
+        "name_th": "Name (Thai)",
+        "name_en": "Name (English)",
+        "sku": "SKU",
+        "category": "Category",
+        "tag": "Tag",
+        "price": "Price (฿)",
+        "cost": "Cost (฿)",
+        "sold_7d": "Sold, 7 days",
+        "revenue_7d": "Revenue, 7 days (฿)",
+        "rating": "Rating",
+        "status": "Status",
+        "description_th": "Description (Thai)",
+        "description_en": "Description (English)",
+        "updated_at": "Last updated"
+      },
+      "sections": {
+        "info": "Details",
+        "content": "Name and description",
+        "pricing": "Price and cost"
+      }
+    },
+    "categories": {
+      "title": "Categories",
+      "singular": "category",
+      "stat": {
+        "all": "All",
+        "drink": "Drinks",
+        "food": "Food",
+        "empty": "No items",
+        "noEmoji": "No emoji"
+      },
+      "fields": {
+        "order": "Order",
+        "emoji": "Emoji",
+        "name_th": "Name (Thai)",
+        "name_en": "Name (English)",
+        "slug": "Slug",
+        "kind": "Kind",
+        "item_count": "Items"
+      },
+      "sections": {
+        "info": "Details",
+        "content": "Names"
+      }
+    },
+    "orders": {
+      "title": "Orders",
+      "singular": "order",
+      "stat": {
+        "all": "All (14 days)",
+        "inProgress": "In progress",
+        "completed": "Completed",
+        "cancelled": "Cancelled",
+        "delivery": "Delivery"
+      },
+      "fields": {
+        "code": "Bill no.",
+        "ordered_at": "Ordered on",
+        "branch": "Branch",
+        "channel": "Channel",
+        "customer_name": "Customer",
+        "phone": "Phone",
+        "note": "Note",
+        "items": "Items",
+        "subtotal": "Subtotal (฿)",
+        "discount": "Discount (฿)",
+        "total": "Total (฿)",
+        "payment": "Payment",
+        "status": "Status"
+      },
+      "sections": {
+        "order": "Order",
+        "customer": "Customer",
+        "payment": "Payment"
+      }
+    },
+    "promotions": {
+      "title": "Promotions",
+      "singular": "promotion",
+      "stat": {
+        "all": "All",
+        "running": "Running today",
+        "upcoming": "Upcoming",
+        "expired": "Expired",
+        "draft": "Drafts"
+      },
+      "fields": {
+        "code": "Code",
+        "title_th": "Title (Thai)",
+        "title_en": "Title (English)",
+        "kind": "Type",
+        "value": "Value",
+        "min_spend": "Min. spend (฿)",
+        "starts_on": "Starts",
+        "ends_on": "Ends",
+        "usage_limit": "Usage limit",
+        "used_count": "Used",
+        "status": "Status"
+      },
+      "sections": {
+        "info": "Rules",
+        "content": "Title",
+        "period": "Dates and limit"
+      }
+    },
+    "members": {
+      "title": "Members",
+      "singular": "member",
+      "stat": {
+        "all": "All",
+        "gold": "Gold",
+        "silver": "Silver",
+        "newMembers": "New, 30 days",
+        "birthday": "Birthday this month"
+      },
+      "fields": {
+        "avatar_url": "Photo",
+        "name": "Name",
+        "phone": "Phone",
+        "email": "Email",
+        "birthday": "Birthday",
+        "tier": "Tier",
+        "points": "Points",
+        "visits": "Visits",
+        "total_spent": "Total spent (฿)",
+        "favorite_menu": "Favourite",
+        "joined_on": "Joined",
+        "last_visit_at": "Last visit"
+      },
+      "sections": {
+        "profile": "Profile",
+        "loyalty": "Points and tier"
+      }
+    },
+    "reviews": {
+      "title": "Reviews",
+      "singular": "review",
+      "stat": {
+        "all": "All",
+        "fiveStar": "5 stars",
+        "lowStar": "3 stars or less",
+        "unreplied": "Not replied",
+        "hidden": "Hidden"
+      },
+      "fields": {
+        "name": "Reviewer",
+        "rating": "Stars",
+        "body": "Review",
+        "branch": "Branch",
+        "source": "Source",
+        "reviewed_on": "Date",
+        "reply": "Our reply",
+        "visibility": "Visibility"
+      },
+      "sections": {
+        "review": "Review",
+        "reply": "Reply",
+        "display": "On the website"
+      }
+    },
+    "branches": {
+      "title": "Branches",
+      "singular": "branch",
+      "stat": {
+        "all": "All",
+        "open": "Open",
+        "closed": "Closed",
+        "soon": "Coming soon",
+        "large": "50+ seats"
+      },
+      "fields": {
+        "name_th": "Name (Thai)",
+        "name_en": "Name (English)",
+        "slug": "Branch code",
+        "district": "Area",
+        "phone": "Phone",
+        "manager": "Manager",
+        "opens_at": "Opens",
+        "closes_at": "Closes",
+        "seats": "Seats",
+        "staff_count": "Staff",
+        "today_orders": "Orders today",
+        "today_revenue": "Revenue today (฿)",
+        "rating": "Rating",
+        "status": "Status"
+      },
+      "sections": {
+        "info": "Details",
+        "hours": "Hours and seats"
+      }
+    },
+    "staff": {
+      "title": "Staff",
+      "singular": "staff member",
+      "stat": {
+        "all": "All",
+        "barista": "Baristas",
+        "manager": "Managers",
+        "onLeave": "On leave",
+        "morning": "Morning shift"
+      },
+      "fields": {
+        "avatar_url": "Photo",
+        "name": "Name",
+        "nickname": "Nickname",
+        "phone": "Phone",
+        "role": "Role",
+        "branch": "Branch",
+        "shift": "Shift",
+        "hourly_rate": "Hourly rate (฿)",
+        "started_on": "Started",
+        "status": "Status",
+        "hours_this_month": "Hours this month"
+      },
+      "sections": {
+        "profile": "Profile",
+        "work": "Work"
+      }
+    },
+    "stock": {
+      "title": "Stock",
+      "singular": "stock item",
+      "stat": {
+        "all": "All",
+        "low": "Low, reorder",
+        "out": "Out of stock",
+        "beans": "Coffee beans",
+        "dairy": "Dairy"
+      },
+      "fields": {
+        "name_th": "Name (Thai)",
+        "name_en": "Name (English)",
+        "sku": "SKU",
+        "group": "Group",
+        "branch": "Branch",
+        "stock": "In stock",
+        "reorder_level": "Reorder at",
+        "unit": "Unit",
+        "supplier": "Supplier",
+        "cost_per_unit": "Cost per unit (฿)",
+        "last_restock_on": "Last restock"
+      },
+      "sections": {
+        "info": "Details",
+        "level": "Stock level",
+        "supplier": "Supplier"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "total": "Total",
+    "chartType": "Chart type",
+    "kinds": {
+      "donut": "Donut",
+      "bar": "Bars",
+      "column": "Columns",
+      "line": "Line",
+      "table": "Table"
+    },
+    "tiles": {
+      "ordersToday": "Orders today",
+      "revenueToday": "Revenue today (฿)",
+      "avgTicket": "Avg. bill (฿)",
+      "inProgress": "Orders in progress",
+      "lowStock": "Low stock"
+    },
+    "charts": {
+      "byHour": {
+        "title": "Orders by hour, today",
+        "note": "When the rush is",
+        "label": "Hour",
+        "value": "Orders"
+      },
+      "channels": {
+        "title": "Order channels",
+        "note": "Today's orders, all branches",
+        "label": "Channel",
+        "value": "Orders"
+      },
+      "branches": {
+        "title": "Revenue by branch",
+        "note": "Today (฿)",
+        "label": "Branch",
+        "value": "Revenue (฿)"
+      },
+      "topMenu": {
+        "title": "Best sellers",
+        "note": "Sold in the last 7 days",
+        "label": "Item",
+        "value": "Sold"
+      },
+      "orderStatus": {
+        "title": "Today's order status",
+        "note": "Including cancelled",
+        "label": "Status",
+        "value": "Orders"
+      },
+      "tiers": {
+        "title": "Members by tier",
+        "note": "By total spend",
+        "label": "Tier",
+        "value": "Members"
+      }
+    }
+  },
+  "analytics": {
+    "range": "{n} days",
+    "rangeLabel": "Period",
+    "tiles": {
+      "revenue": "Revenue (฿)",
+      "orders": "Orders",
+      "avgTicket": "Avg. bill (฿)",
+      "newMembers": "New members",
+      "wasteCost": "Waste (฿)"
+    },
+    "channels": {
+      "dine_in": "Dine-in",
+      "takeaway": "Takeaway",
+      "delivery": "Delivery"
+    },
+    "cups": {
+      "cups_hot": "Hot",
+      "cups_iced": "Iced",
+      "cups_blended": "Blended"
+    },
+    "charts": {
+      "revenue": {
+        "title": "Daily revenue",
+        "note": "Baht",
+        "label": "Day",
+        "value": "Revenue (฿)"
+      },
+      "orders": {
+        "title": "Daily orders",
+        "note": "All branches and channels",
+        "label": "Day",
+        "value": "Orders"
+      },
+      "avgTicket": {
+        "title": "Average bill",
+        "note": "Baht per order",
+        "label": "Day",
+        "value": "Baht"
+      },
+      "channels": {
+        "title": "Channel mix",
+        "note": "Orders in the period",
+        "label": "Channel",
+        "value": "Orders"
+      },
+      "cups": {
+        "title": "Hot, iced, blended",
+        "note": "Cups in the period",
+        "label": "Kind",
+        "value": "Cups"
+      },
+      "categories": {
+        "title": "Revenue by category",
+        "note": "Last 7 days (฿)",
+        "label": "Category",
+        "value": "Revenue (฿)"
+      },
+      "newMembers": {
+        "title": "New members per day",
+        "note": "Via LINE OA and at the counter",
+        "label": "Day",
+        "value": "People"
+      },
+      "promo": {
+        "title": "Promotion discounts",
+        "note": "Baht per day",
+        "label": "Day",
+        "value": "Baht"
+      },
+      "waste": {
+        "title": "Waste",
+        "note": "Thrown away per day (฿)",
+        "label": "Day",
+        "value": "Baht"
+      }
+    }
+  },
+  "settings": {
+    "title": "Shop settings",
+    "subtitle": "Applies to every branch at once · admins only",
+    "confirmTitle": "Save settings?",
+    "confirmBody": "The change applies to every branch at once",
+    "categories": {
+      "store": {
+        "title": "Shop",
+        "description": "Name, tax and receipt text"
+      },
+      "loyalty": {
+        "title": "Loyalty",
+        "description": "Point rates, rewards and member tiers"
+      }
+    },
+    "store": {
+      "tabs": {
+        "general": "General",
+        "receipt": "Receipt"
+      },
+      "sections": {
+        "business": "Business",
+        "tax": "Tax and service",
+        "receipt": "Receipt text",
+        "wifi": "Guest Wi-Fi"
+      },
+      "fields": {
+        "store_name": "Shop name",
+        "tax_id": "Tax ID",
+        "phone": "Phone",
+        "email": "Email",
+        "vat_percent": "VAT (%)",
+        "service_charge_percent": "Service charge (%)",
+        "receipt_header": "Header",
+        "receipt_footer": "Footer",
+        "wifi_password": "Wi-Fi password (printed on receipts)"
+      }
+    },
+    "loyalty": {
+      "tabs": {
+        "points": "Points",
+        "tiers": "Tiers"
+      },
+      "sections": {
+        "earn": "Earning",
+        "redeem": "Redeeming",
+        "thresholds": "Tier thresholds",
+        "perks": "Perks"
+      },
+      "fields": {
+        "baht_per_point": "Baht per point",
+        "point_expiry_months": "Points expire after (months)",
+        "points_per_reward": "Points per reward",
+        "reward_value_baht": "Reward value (฿)",
+        "silver_min_spend": "Silver from (฿ spent)",
+        "gold_min_spend": "Gold from (฿ spent)",
+        "birthday_points": "Birthday bonus points"
+      }
+    }
+  }
+}

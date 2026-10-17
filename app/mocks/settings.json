@@ -1,0 +1,22 @@
+{
+  "store": {
+    "store_name": "ดอยดาว คาเฟ่",
+    "tax_id": "0105567012345",
+    "phone": "021234567",
+    "email": "hello@doidao.cafe",
+    "vat_percent": 7,
+    "service_charge_percent": 0,
+    "receipt_header": "ดอยดาว คาเฟ่ · กาแฟจากดอยถึงเมือง",
+    "receipt_footer": "ขอบคุณที่แวะมานะคะ แล้วพบกันใหม่ ☕",
+    "wifi_password": "doidao2026"
+  },
+  "loyalty": {
+    "baht_per_point": 25,
+    "point_expiry_months": 12,
+    "points_per_reward": 100,
+    "reward_value_baht": 65,
+    "silver_min_spend": 3000,
+    "gold_min_spend": 8000,
+    "birthday_points": 50
+  }
+}

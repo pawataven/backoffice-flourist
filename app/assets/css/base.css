@@ -1,0 +1,85 @@
+@layer base {
+  html {
+    color: var(--text);
+    background: var(--surface-muted);
+    font-family: var(--font-body);
+    line-height: var(--leading-body);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Headings carry the brand voice (§1.2). */
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-brand);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--brand-primary);
+    outline-offset: 2px;
+  }
+}
+
+/* <ToastHost> enter/leave. */
+.toast[data-state='open'] {
+  animation: toast-in 200ms ease-out;
+}
+.toast[data-state='closed'] {
+  animation: toast-out 150ms ease-in;
+}
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+@keyframes toast-out {
+  to {
+    opacity: 0;
+  }
+}
+
+/* Brand motion (FloatingLogo, Mascot steam). Reduced motion stops all of it (rule below). */
+.pr-float {
+  animation: pr-float 3s ease-in-out infinite;
+}
+.pr-float-shadow {
+  animation: pr-float-shadow 3s ease-in-out infinite;
+}
+@keyframes pr-float {
+  50% {
+    transform: translateY(-12px);
+  }
+}
+@keyframes pr-float-shadow {
+  50% {
+    transform: scaleX(0.75);
+    opacity: 0.6;
+  }
+}
+.pr-steam {
+  animation: pr-steam 2.4s ease-in-out infinite;
+}
+@keyframes pr-steam {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: translateY(2px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+}
+
+/* §0: every animation respects reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

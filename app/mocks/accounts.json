@@ -1,0 +1,32 @@
+[
+  {
+    "password": "cafe1234",
+    "operator": {
+      "id": "d74dafd9-577e-4f18-8c87-25ea36134a8b",
+      "email": "admin@doidao.cafe",
+      "display_name": "ดาว (เจ้าของร้าน)",
+      "role": "admin",
+      "avatar_url": null
+    }
+  },
+  {
+    "password": "cafe1234",
+    "operator": {
+      "id": "e0518be5-6b49-48cc-9a0e-9a718d8ce292",
+      "email": "editor@doidao.cafe",
+      "display_name": "Manager",
+      "role": "editor",
+      "avatar_url": null
+    }
+  },
+  {
+    "password": "cafe1234",
+    "operator": {
+      "id": "80069821-4c20-43ef-a664-aa95c47c912b",
+      "email": "viewer@doidao.cafe",
+      "display_name": "Viewer",
+      "role": "viewer",
+      "avatar_url": null
+    }
+  }
+]
